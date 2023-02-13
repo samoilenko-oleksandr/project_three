@@ -24,10 +24,14 @@
       color: #264653;
       width: 588px;
     }
+    &__corousel {
+      max-width: 580px;
+    }
     &__slider {
-        &_img {
-            max-width: 100%;
-        }
+      &_img {
+        max-width: 100%;
+      }
     }
   }
 }
+
