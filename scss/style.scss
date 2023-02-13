@@ -1,0 +1,20 @@
+@import "_reset";
+@import "_normalize";
+@import "_header";
+@import "_solutions";
+@import "_services";
+@import "_team";
+@import "_about";
+@import "_footer";
+@import "_animations";
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+

@@ -1,0 +1,67 @@
+.about-us {
+  background-color: #264653;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  &-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.2;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  &-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    margin-bottom: 110px;
+  }
+  &-card {
+    position: relative;
+    margin-bottom: 135px;
+    &__img {
+      max-width: 150px;
+      border-radius: 50%;
+      border: 10px solid #264653;
+      position: absolute;
+      left: -125px;
+    }
+    &__inner {
+      background-color: #fff;
+      box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      padding: 27px 63px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      &_name {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 1.5;
+        letter-spacing: 0.05em;
+        color: #264653;
+      }
+      &_position {
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 1.5;
+        letter-spacing: 0.05em;
+        color: #264653;
+      }
+      &_social {
+        &:hover {
+          animation: shake 0.5s;
+        }
+      }
+    }
+  }
+}

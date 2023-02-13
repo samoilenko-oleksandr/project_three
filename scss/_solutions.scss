@@ -1,0 +1,32 @@
+.solutions-wrap {
+  background: linear-gradient(90deg, #e76f51 0%, #264653 100%);
+  background-blend-mode: darken;
+  clip-path: polygon(0 0, 100% 0, 98% 50%, 95% 100%, 32% 100%, 1% 92%);
+}
+.solutions {
+  display: flex;
+  align-items: center;
+  // margin-bottom: 35px;
+  padding: 90px 0 80px;
+  gap: 35px;
+  &-decoration {
+    &__img {
+      max-width: 100%;
+    }
+  }
+  &-desc {
+    max-width: 540px;
+    &__title {
+      font-size: 55px;
+      line-height: 1.2;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 48px;
+    }
+    &__text {
+      font-size: 32px;
+      line-height: 1.2;
+      color: #ffffff;
+    }
+  }
+}
