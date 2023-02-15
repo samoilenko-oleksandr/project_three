@@ -3,7 +3,16 @@
   padding: 0 15px;
   margin: 0 auto;
 }
-
+@media only screen and (max-width: 1330px) {
+  .solutions-desc {
+    max-width: 430px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .solutions-wrap {
+    clip-path: none;
+  }
+}
 @media only screen and (max-width: 768px) {
   body.lock {
     overflow: hidden;
@@ -132,9 +141,6 @@
   .main {
     padding-top: 92px;
     margin: 0 auto;
-  }
-  .solutions-wrap {
-    clip-path: none;
   }
   .solutions {
     flex-direction: column;
