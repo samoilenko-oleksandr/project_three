@@ -9,13 +9,10 @@
 @import "_animations";
 @import "slick";
 @import "slick-theme";
+@import "media";
 
 body {
   font-family: "Montserrat", sans-serif;
 }
 
-.container {
-  max-width: 1230px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
+

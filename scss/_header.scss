@@ -2,26 +2,29 @@
   background: linear-gradient(90deg, #e76f51 0%, #264653 100%);
   background-blend-mode: darken;
   height: 92px;
-}
-
-.header-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  &__logo {
+  &-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-logo {
+    display: block;
     height: 92px;
-    &_img {
+    &__img {
       transition: transform 0.5s ease-in-out;
+      background-color: #fff;
+      border-radius: 41px;
+      height: 92px;
       &:hover {
         transform: rotate(15deg);
       }
     }
   }
-  &__nav_list {
+  &-list {
     display: flex;
     gap: 34px;
   }
-  &__nav_item-link {
+  &-link {
     text-decoration: none;
     font-weight: 500;
     font-size: 24px;
