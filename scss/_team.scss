@@ -22,14 +22,14 @@
       letter-spacing: 0.05em;
       text-transform: capitalize;
       color: #264653;
-      width: 588px;
+      max-width: 588px;
     }
     &__corousel {
-      max-width: 580px;
+      width: 580px;
     }
     &__slider {
       &_img {
-        max-width: 100%;
+        max-width: 580px;
       }
     }
   }
